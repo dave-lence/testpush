@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+header{
+    height: 60px;
+    background-color:#ffa500;
+    margin-top: 30px;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0px 0px 30px rgba(127, 137, 167, 0.3);
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:45px;
+    border-radius: 50%;
+    align-items: center;
+    align-self: center;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.fa-bars{
+    font-size: 24px;
+}
+ul{
+    justify-content: flex-start;
+    overflow: hidden;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+ul > li{
+    font-size: 20px;
+    list-style: none;
+    float: left;
+}
+ul > li > a{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font: weight 100px;
+    font-style: italic;
+    transition: ease-in 0.3s;
+    
+}
+ul > li > a:hover{
+    background-color: #111;
+    border-radius: 10px;
+    color: white;
+}
+li {
+    display: flex;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+li > a{
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    color: black;
+    padding: 10px;
+    transition: ease-in 0.3s;
+    font: weight 100px;
+}
+li > a:hover{
+    background-color: #111;
+    border-radius: 10px;
+    color: #fff;
+}
+.fa-cart-shopping{
+    padding: 0px 10px;
+    font-size: 24px
+}
+
+/* hero container */
+.container{
+    background-image: ("img/ethan-hoover-0YHIlxeCuhg-unsplash.jpg");
+}
